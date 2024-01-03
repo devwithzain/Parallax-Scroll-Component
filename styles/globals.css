@@ -4,10 +4,15 @@
 
 html {
 	font-size: 6.25%;
+	scroll-behavior: smooth;
 }
 
 body {
 	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	width: 0;
 }
 
 @media (max-width: 1490px) {
